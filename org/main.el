@@ -1,0 +1,9 @@
+;; -*- lexical-binding: t; -*-
+
+(require 'org)
+
+(setq default-major-mode 'org-mode
+      initial-major-mode 'org-mode
+      initial-scratch-message "#+title: Scratch\n\n")
+
+(provide 'org-main)
